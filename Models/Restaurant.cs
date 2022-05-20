@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-    public class User
+    public class Restaurant
     {
         [Key]
         public int Id { get; set; }
@@ -13,7 +13,5 @@ using System.Threading.Tasks;
         public string Name { get; set; }
         [Required]
         [MaxLength(100)]
-        public string Email { get; set; }
+        public string Location { get; set; }
     }
-
-  
